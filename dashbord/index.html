@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="asset/css/all.min.css" />
+  <!-- link css -->
+  <link rel="stylesheet" href="asset/css/style.css" />
+</head>
+
+<body>
+  <div class="page d-flex">
+    <div class="sidbar">
+      <h3>COMPAIN</h3>
+      <span class="line circle"><span class="item_span circle"></span></span>
+      <ul>
+        <li>
+          <a href="" class="d-flex active">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        </li>
+        <li>
+          <a class="d-flex" href="setting.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex" href="profile.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex " href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex " href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex " href="files.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="content hidden">
+      <!-- Start Content Header -->
+      <section class="content-header">
+        <input type="search" class="input_search" placeholder="search">
+        <div class="notifaction d-flex align-item ">
+          <div class="notifaction_item ml-5">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </div>
+          <div class="vector ">
+            <img src="/asset/image/Basic_Ui_(186).jpg" alt="" width="32" />
+          </div>
+        </div>
+      </section>
+      <!-- End Content Header -->
+      <h1 class="p-relative ptl-20">Dashboard</h1>
+      <span class="dash_sp_1 "><span class="dash_sp_2 "></span></span>
+
+
+      <!--Start Section wrapper -->
+      <div class="section-wrapper">
+        <!-- The welcome widget contains a welcome message and some statistics -->
+        <div class="welcome hidden">
+          <div class="container">
+            <div class="welcome_header d-flex justify-content align-item hidden">
+              <div class="welcome_header_info ">
+                <!-- Heading for the welcome message -->
+                <h2>Welcome </h2>
+                <!-- Paragraph for the user's name -->
+                <p> John Doe</p>
+                <!-- Image for the user's profile picture -->
+                <img src="asset/image/Basic_Ui_(186).jpg" alt="" width="32" class="circle pt" />
+              </div>
+              <div class="welcome_header_img">
+                <!-- Image for the welcome message -->
+                <img src="asset/image/Onboarding-bro.svg" alt="" width="150" />
+              </div>
+            </div>
+            <div class="space"></div>
+            <div class="welcome_body d-flex">
+              <div class="welcome_body_item pt">
+                <!-- Heading for the first statistic -->
+                <h4>MoHaMed</h4>
+                <!-- Paragraph for the description of the first statistic -->
+                <p class="text-mute">Developer</p>
+              </div>
+              <div class="welcome_body_item pt">
+                <!-- Heading for the second statistic -->
+                <h4>90</h4>
+                <!-- Paragraph for the description of the second statistic -->
+                <p class="text-mute">Project</p>
+              </div>
+              <div class="welcome_body_item pt">
+                <!-- Heading for the third statistic -->
+                <h4>$17,890</h4>
+                <!-- Paragraph for the description of the third statistic -->
+                <p class="text-mute">Earned</p>
+              </div>
+            </div>
+            <!-- Button for the user's profile -->
+            <input type="submit" class="mt pl-20" value="Profile" />
+          </div>
+        </div>
+
+        <!-- The quick-draft widget contains a form for quickly drafting ideas -->
+        <div class="quick-draft">
+          <div class="quick_item container pt">
+            <h2>Quick Draft</h2>
+            <p class="text-mute">Write A Draft For Your Ideas</p>
+            <!-- Form for quickly drafting ideas -->
+            <form>
+              <input class="mt draft_input" type="text" placeholder="Title" />
+              <textarea class="mt" placeholder="Your Thought"></textarea>
+              <input type="submit" class="mt" value="Save" />
+            </form>
+          </div>
+        </div>
+
+        <!-- The targets widget contains statistics about support tickets -->
+        <div class="target">
+          <div class="target-item container pt">
+            <div class="target_head">
+              <!-- Heading for the targets widget -->
+              <h2>Tickets Statistics</h2>
+              <!-- Paragraph for the description of the targets widget -->
+              <p class="text-mute">Everything About Support Tickets</p>
+            </div>
+            <div class="target_body">
+              <div class="target_body_item d-flex">
+                <!-- Container for the first statistic -->
+                <span class="target_span_1"></span>
+                <div class="target_span_con">
+                  <!-- Heading for the description of the first statistic -->
+                  <h5 class="pt text-mute">Money</h5>
+                  <!-- Heading for the value of the first statistic -->
+                  <h4 class="pl pb">$ 20.00</h4>
+                  <!-- Line indicating progress towards the target -->
+                  <span class="target_span_2"></span>
+                </div>
+              </div>
+              <div class="target_body_item d-flex">
+                <!-- Container for the second statistic -->
+                <span class="target_span_1"></span>
+                <div class="target_span_con">
+                  <!-- Heading for the description of the second statistic -->
+                  <h5 class="pt text-mute">Projects</h5>
+                  <!-- Heading for the value of the second statistic -->
+                  <h4 class="pl pb">27</h4>
+                  <!-- Line indicating progress towards the target -->
+                  <span class="target_span_2"></span>
+                </div>
+              </div>
+              <div class="target_body_item d-flex">
+                <!-- Container for the third statistic -->
+                <span class="target_span_1"></span>
+                <div class="target_span_con">
+                  <!-- Heading for the description of the third statistic -->
+                  <h5 class="pt text-mute">Money</h5>
+                  <!-- Heading for the value of the third statistic -->
+                  <h4 class="pl pb">$ 20.00</h4>
+                  <!-- Line indicating progress towards the target -->
+                  <span class="target_span_2"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start Ticket Widget -->
+        <div class="tickets">
+          <div class="container">
+            <div class="tickets_item ">
+              <div class="tickets_item_head">
+                <h3>Tickets Statistics</h3>
+                <p class="text-mute">Everything About Support Tickets</p>
+              </div>
+              <div class="tickets_item_body">
+                <div class="ticket_item_flex d-flex gap mt">
+                  <div class="ticket-body">
+                    <i class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange pb"></i>
+                    <h3>2500</h3>
+                    <p class="text-mute ">Total</p>
+                  </div>
+                  <div class="ticket-body">
+                    <i class="fa-solid fa-spinner fa-2x mb-10 c-blue pb"></i>
+                    <h3>500</h3>
+                    <p class="text-mute">Pendding</p>
+                  </div>
+
+                </div>
+
+                <div class="ticket_item_flex d-flex gap mt">
+                  <div class="ticket-body">
+                    <i class="fa-regular fa-circle-check fa-2x mb-10 c-green pb"></i>
+                    <h3>700</h3>
+                    <p class="text-mute  ">Close</p>
+                  </div>
+                  <div class="ticket-body">
+                    <i class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red pb"></i>
+                    <h3>467</h3>
+                    <p class="text-mute ">Delete</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start Latest News Widget -->
+        <div class="latest-news">
+          <div class="latest_item">
+            <div class="container">
+              <h2>Latest News</h2>
+              <div class="latest_content">
+                <div class="latest_content_item d-flex align-item justify-content pt">
+                  <img src="asset/image/1.jpeg" alt="" width="100">
+                  <div class="latest_content_item_desc pl-20 fs-15 w-100">
+                    <h5>Created SASS Section</h5>
+                    <span class="text-mute w-100">New SASS Examples Tutorials</span>
+                  </div>
+                </div>
+                <div class="latest_content_item d-flex align-item justify-content pt">
+                  <img src="asset/image/1.jpeg" alt="" width="100" class="radis">
+                  <div class="latest_content_item_desc pl-20 fs-15 w-100">
+                    <h5>Created SASS Section</h5>
+                    <p class="text-mute">New SASS Examples Tutorials</p>
+                  </div>
+                </div>
+                <div class="latest_content_item d-flex align-item justify-content pt">
+                  <img src="asset/image/1.jpeg" alt="" width="100">
+                  <div class="latest_content_item_desc pl-20 fs-15 w-100">
+                    <h5>Created SASS Section</h5>
+                    <p class="text-mute">New SASS Examples Tutorials</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Latest News Widget -->
+        <div class="tasks-widget">
+          <h2 class="tasks-widget-title">Latest Tasks</h2>
+          <div class="task">
+            <div class="task-info">
+              <h3 class="task-title">Record One New Video</h3>
+              <p class="task-description">Record Python Create Exe Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete-icon"></i>
+          </div>
+          <div class="task">
+            <div class="task-info">
+              <h3 class="task-title">Write Article</h3>
+              <p class="task-description">Write Low Level vs High Level Languages</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete-icon"></i>
+          </div>
+          <div class="task">
+            <div class="task-info">
+              <h3 class="task-title">Finish Project</h3>
+              <p class="task-description">Publish Academy Programming Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete-icon"></i>
+          </div>
+          <div class="task done">
+            <div class="task-info">
+              <h3 class="task-title">Attend The Meeting</h3>
+              <p class="task-description">Attend The Project Business Analysis Meeting</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete-icon"></i>
+          </div>
+          <div class="task">
+            <div class="task-info">
+              <h3 class="task-title">Finish Lesson</h3>
+              <p class="task-description">Finish Teaching Flex Box</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete-icon"></i>
+          </div>
+        </div>
+        <!-- start Top Search Word Widget -->
+
+        <div class="search-items-widget">
+          <h2 class="search-items-title">Top Search Items</h2>
+          <div class="search-items-header">
+            <div class="keyword text-mute">Keyword</div>
+            <div class="search-count text-mute">Search Count</div>
+          </div>
+          <div class="search-item">
+            <span>Programming</span>
+            <span class="search-count-bg">220</span>
+          </div>
+          <div class="search-item">
+            <span>JavaScript</span>
+            <span class="search-count-bg">180</span>
+          </div>
+          <div class="search-item">
+            <span>PHP</span>
+            <span class="search-count-bg">160</span>
+          </div>
+          <div class="search-item">
+            <span>Code</span>
+            <span class="search-count-bg">145</span>
+          </div>
+        </div>
+        <!-- End Top Search Word Widget -->
+
+        <!-- Start Latest Uploads Widget -->
+        <div class="latest-uploads-widget">
+          <h2 class="latest-uploads-title">Latest Uploads</h2>
+          <ul class="latest-uploads-list">
+            <li class="latest-upload-item">
+              <div class="upload-info">
+                <img class="upload-icon" src="imgs/pdf.svg" alt="" />
+                <div>
+                  <span class="file-name">my-file.pdf</span>
+                  <span class="uploader text-mute">Elzero</span>
+                </div>
+              </div>
+              <div class="file-size">2.9mb</div>
+            </li>
+            <li class="latest-upload-item">
+              <div class="upload-info">
+                <img class="upload-icon" src="imgs/avi.svg" alt="" />
+                <div>
+                  <span class="file-name">My-Video-File.avi</span>
+                  <span class="uploader text-mute">Admin</span>
+                </div>
+              </div>
+              <div class="file-size">4.9mb</div>
+            </li>
+            <li class="latest-upload-item">
+              <div class="upload-info">
+                <img class="upload-icon" src="imgs/psd.svg" alt="" />
+                <div>
+                  <span class="file-name">My-Psd-File.pdf</span>
+                  <span class="uploader text-mute">Osama</span>
+                </div>
+              </div>
+              <div class="file-size">4.5mb</div>
+            </li>
+            <li class="latest-upload-item">
+              <div class="upload-info">
+                <img class="upload-icon" src="imgs/zip.svg" alt="" />
+                <div>
+                  <span class="file-name">My-Zip-File.pdf</span>
+                  <span class="uploader text-mute">User</span>
+                </div>
+              </div>
+              <div class="file-size">8.9mb</div>
+            </li>
+            <li class="latest-upload-item">
+              <div class="upload-info">
+                <img class="upload-icon" src="imgs/dll.svg" alt="" />
+                <div>
+                  <span class="file-name">My-DLL-File.pdf</span>
+                  <span class="uploader text-mute">Admin</span>
+                </div>
+              </div>
+              <div class="file-size">4.9mb</div>
+            </li>
+          </ul>
+        </div>
+        <!-- end Latest Uploads Widget -->
+
+
+        <div class="last-project">
+          <h2>Last Project Progress</h2>
+          <ul>
+            <li class="done">Got The Project</li>
+            <li class="done">Started The Project</li>
+            <li class="done">The Project About To Finish</li>
+            <li class="current">Test The Project</li>
+            <li>Finish The Project & Get Money</li>
+          </ul>
+        </div>
+
+
+
+        <!-- social-media-stats-widget -->
+        <div class="social-media-stats-widget container">
+          <h2>Social Media Stats</h2>
+          <div class="social-media-box twitter">
+            <i class="fab fa-twitter"></i>
+            <span>90K Followers</span>
+            <a href="#" class="btn-follow">Follow</a>
+          </div>
+          <div class="social-media-box facebook">
+            <i class="fab fa-facebook-f"></i>
+            <span>2M Likes</span>
+            <a href="#" class="btn-like">Like</a>
+          </div>
+          <div class="social-media-box youtube">
+            <i class="fab fa-youtube"></i>
+            <span>1M Subscribers</span>
+            <a href="#" class="btn-subscribe">Subscribe</a>
+          </div>
+          <div class="social-media-box linkedin">
+            <i class="fab fa-linkedin-in"></i>
+            <span>70K Followers</span>
+            <a href="#" class="btn-follow">Follow</a>
+          </div>
+        </div>
+        <!-- social-media-stats-widget -->
+
+
+        <!-- latest-post-widget -->
+        <div class="latest-post-widget">
+          <h2>Latest Post</h2>
+          <div class="author-info">
+            <img class="avatar" src="asset/image/Basic_Ui_(186).jpg" alt="Author Avatar">
+            <div class="author-details">
+              <span class="author-name">Mohamed Abo</span>
+              <span class="post-time">About 3 Hours Ago</span>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>You can fool all of the people some of the time, and some of the people all of the time, but you can't
+              fool all of the people all of the time.</p>
+          </div>
+          <div class="post-stats">
+            <div>
+              <i class="far fa-heart"></i>
+              <span>1.8K</span>
+            </div>
+            <div>
+              <i class="far fa-comments"></i>
+              <span>500</span>
+            </div>
+          </div>
+        </div>
+        <!-- latest-post-widget -->
+        <!-- reminders-widget -->
+        <div class="reminders-widget">
+          <h2>Reminders</h2>
+          <ul>
+            <li>
+              <div class="reminder-item blue">
+                <span class="key"></span>
+                <div class="reminder-details">
+                  <p>Check My Tasks List</p>
+                  <span>28/09/2022 - 12:00am</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="reminder-item green">
+                <span class="key"></span>
+                <div class="reminder-details">
+                  <p>Check My Projects</p>
+                  <span>26/10/2022 - 12:00am</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="reminder-item orange">
+                <span class="key"></span>
+                <div class="reminder-details">
+                  <p>Call All My Clients</p>
+                  <span>05/11/2022 - 12:00am</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="reminder-item red">
+                <span class="key"></span>
+                <div class="reminder-details">
+                  <p>Finish The Development Workshop</p>
+                  <span>20/12/2022 - 12:00am</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- reminders-widget -->
+
+
+      </div>
+      <!--End Section wrapper -->
+
+
+
+
+      <!-- Start Projects Table -->
+      <div class="hidden container">
+        <div class="projects p-20 bg-white rad-10 m-20">
+          <h2 class="mt-0 mb-20">Projects</h2>
+          <div class="responsive-table">
+            <table class="fs-15 w-full">
+              <thead>
+                <tr>
+                  <td>Name</td>
+                  <td>Finish Date</td>
+                  <td>Client</td>
+                  <td>Price</td>
+                  <td>Team</td>
+                  <td>Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ministry Wikipedia</td>
+                  <td>10 May 2022</td>
+                  <td>Ministry</td>
+                  <td>$5300</td>
+                  <td class="d-flex">
+                    <!-- <img decoding="async" class="circle" src="asset/image/Basic_Ui_(186).jpg" width="32" alt="">
+                    <img decoding="async" class="circle" src="asset/image/Basic_Ui_(186).jpg" width="32" alt="">
+                    <img decoding="async" class="circle" src="asset/image/Basic_Ui_(186).jpg" width="32" alt="">
+                    <img decoding="async" class="circle" src="asset/image/Basic_Ui_(186).jpg" width="32" alt=""> -->
+                  </td>
+                  <td>
+                    <span class="label btn-shape bg-orange c-white">Pending</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Elzero Shop</td>
+                  <td>12 Oct 2021</td>
+                  <td>Elzero Company</td>
+                  <td>$1500</td>
+                  <td>
+                    <img decoding="async" src="imgs/team-01.png" alt="">
+                    <img decoding="async" src="imgs/team-02.png" alt="">
+                    <img decoding="async" src="imgs/team-05.png" alt="">
+                  </td>
+                  <td><span class="label btn-shape bg-blue c-white">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>Bouba App</td>
+                  <td>05 Sep 2021</td>
+                  <td>Bouba</td>
+                  <td>$800</td>
+                  <td>
+                    <img decoding="async" src="imgs/team-02.png" alt="">
+                    <img decoding="async" src="imgs/team-03.png" alt="">
+                  </td>
+                  <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                </tr>
+                <tr>
+                  <td>Mahmoud Website</td>
+                  <td>22 May 2021</td>
+                  <td>Mahmoud</td>
+                  <td>$600</td>
+                  <td>
+                    <img decoding="async" src="imgs/team-01.png" alt="">
+                    <img decoding="async" src="imgs/team-02.png" alt="">
+                  </td>
+                  <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                </tr>
+                <tr>
+                  <td>Sayed Website</td>
+                  <td>24 May 2021</td>
+                  <td>Sayed</td>
+                  <td>$300</td>
+                  <td>
+                    <img decoding="async" src="imgs/team-01.png" alt="">
+                    <img decoding="async" src="imgs/team-03.png" alt="">
+                  </td>
+                  <td><span class="label btn-shape bg-red c-white">Rejected</span></td>
+                </tr>
+                <tr>
+                  <td>Arena Application</td>
+                  <td>01 Mar 2021</td>
+                  <td>Arena Company</td>
+                  <td>$2600</td>
+                  <td>
+                    <img decoding="async" src="imgs/team-01.png" alt="">
+                    <img decoding="async" src="imgs/team-02.png" alt="">
+                    <img decoding="async" src="imgs/team-03.png" alt="">
+                    <img decoding="async" src="imgs/team-04.png" alt="">
+                  </td>
+                  <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- End Projects Table -->
+
+    </div>
+  </div>
+  <script src="asset/js/script.js"></script>
+  <script src="asset/js/all.min.js"></script>
+</body>
+
+</html>
